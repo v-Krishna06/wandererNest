@@ -6,7 +6,7 @@ if(process.env.NODE_ENV != "production"){
 const express = require("express")
 const app = express()
 const mongoose = require("mongoose")
-const Listing = require("../Major Proj/models/listing")
+const Listing = require("./models/listing")
 const path = require("path")
 const methodOverride = require("method-override")
 
@@ -16,7 +16,7 @@ const session = require("express-session")
 const MongoStore = require("connect-mongo");
 const ExpressError = require("./utils/ExpressError.js")
 const {listingSchema,reviewSchema} = require("./schema.js")
-const Review = require("../Major Proj/models/review.js")
+const Review = require("./models/review.js")
 const wrapAsync = require("./utils/wrapAsync.js")
 const flash = require("connect-flash")
 const passport = require("passport")
