@@ -261,7 +261,7 @@ git push origin feature-name
 **Krishna Kumar Verma**
 
 - GitHub: https://github.com/v-Krishna06
-- LinkedIn: *(Add your LinkedIn URL here)*
+- LinkedIn: https://www.linkedin.com/in/krishna-verma-54b008367/
 
 ---
 
